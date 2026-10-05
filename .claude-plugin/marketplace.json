@@ -1,0 +1,15 @@
+{
+  "name": "investsync-plugins",
+  "description": "Official EveryWealth plugins for Claude — live portfolio data, transactions, documents, and market research via the EveryWealth MCP server.",
+  "owner": {
+    "name": "EveryWealth",
+    "url": "https://everywealth.com.au"
+  },
+  "plugins": [
+    {
+      "name": "investsync",
+      "source": "./plugins/investsync-mcp",
+      "description": "Query your live EveryWealth portfolio from Claude: snapshots, investments, transactions, source documents, market data, and portfolio Q&A."
+    }
+  ]
+}

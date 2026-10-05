@@ -1,0 +1,8 @@
+{
+  "name": "investsync",
+  "description": "Query your live EveryWealth portfolio from Claude: snapshots, investments, transactions, source and governance documents, market data, and portfolio Q&A.",
+  "version": "0.3.0",
+  "author": {
+    "name": "EveryWealth"
+  }
+}
