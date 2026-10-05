@@ -16,7 +16,7 @@ claude plugin marketplace add EveryWealth/claude-plugins
 ```
 
 ```bash
-claude plugin install investsync@investsync-plugins
+claude plugin install everywealth@everywealth-plugins
 ```
 
 The first time Claude uses an EveryWealth tool it will ask you to authenticate:
@@ -28,7 +28,7 @@ EveryWealth.
 For local development against `next dev`, point the plugin at your dev server:
 
 ```bash
-export INVESTSYNC_MCP_URL="http://localhost:3000/api/mcp"
+export EVERYWEALTH_MCP_URL="http://localhost:3000/api/mcp"
 ```
 
 ### Headless / CI: pre-issued token
@@ -39,7 +39,7 @@ default, `{"scope":"user"}` for all your organisations) and register the
 server with a header instead of installing the plugin:
 
 ```bash
-claude mcp add --transport http investsync https://app.everywealth.com.au/api/mcp --header "Authorization: Bearer $INVESTSYNC_MCP_TOKEN"
+claude mcp add --transport http everywealth https://app.everywealth.com.au/api/mcp --header "Authorization: Bearer $EVERYWEALTH_MCP_TOKEN"
 ```
 
 ## Tools

@@ -13,7 +13,7 @@ claude plugin marketplace add EveryWealth/claude-plugins
 ```
 
 ```bash
-claude plugin install investsync@investsync-plugins
+claude plugin install everywealth@everywealth-plugins
 ```
 
 The first time Claude uses an EveryWealth tool, run `/mcp`, choose
@@ -21,14 +21,14 @@ The first time Claude uses an EveryWealth tool, run `/mcp`, choose
 You choose one organisation or all of yours. There are no keys to copy.
 
 Full setup and the list of tools are in
-[plugins/investsync-mcp/README.md](plugins/investsync-mcp/README.md).
+[plugins/everywealth-mcp/README.md](plugins/everywealth-mcp/README.md).
 
 ## Prefer no plugin?
 
 Register the MCP server directly, then authenticate with `/mcp`:
 
 ```bash
-claude mcp add --transport http investsync https://app.everywealth.com.au/api/mcp
+claude mcp add --transport http everywealth https://app.everywealth.com.au/api/mcp
 ```
 
 Claude on the web or desktop and ChatGPT connect to the same address as a

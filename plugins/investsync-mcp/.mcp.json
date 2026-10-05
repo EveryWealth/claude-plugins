@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "investsync": {
-      "type": "http",
-      "url": "${INVESTSYNC_MCP_URL:-https://app.everywealth.com.au/api/mcp}"
-    }
-  }
-}
